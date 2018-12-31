@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" media="screen" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/css/bootstrap.min.css">
+	<link rel="stylesheet" href="Template.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<title>Minimum Bootstrap HTML Skeleton</title>
+
+	<!--  -->
+
+	<style>
+	</style>
+
+</head>
+
+<body>
+    <!--   navigation bar starts here-->
+    <nav class="navbar navbar-default navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-target="#MainNavbar" data-toggle="collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="navbar-collapse collapse" id="MainNavbar">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="#"><span class="glyphicon glyphicon-home"></span> Home </a>
+                    </li>
+                    <li>
+                        <a href="#"><span class="glyphicon glyphicon-earphone"></span> Contact</a>
+                    </li>
+                    <li>
+                        <a href="#"><span class="glyphicon glyphicon-info-sign"></span> About</a>
+                    </li>
+                    <li>
+                        <a href="#"><span class="glyphicon glyphicon-picture"></span> Gallery</a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                        <span class="glyphicon glyphicon-map-marker"></span>Locations
+                       <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="#">Delhi</a>
+                            </li>
+                            <li role="separator" class="divider"></li>
+                            <li class="dropdwn-header">
+                                <b>Upcomings</b>
+                            </li>
+                            <li>
+                                <a href="#">Noida</a>
+                            </li>
+                            <li>
+                                <a href="#">Gurugram</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="navbar-form navbar-left" role="search">
+                    <div class="form-group">
+                        <span class="glyphicon glyphicon-search"></span>
+                        <input type="text" class="form-control" placeholder="Search">
+                    </div>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav><!--    navigation bar ends here-->
+    
+<!--    carousel starts here-->
+    <div id="mycarousel" class="carousel slide" data-wrap="true" data-ride="carousel" data-interval="4000">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#mycarousel" data-slide-to="1"></li>
+    <li data-target="#mycarousel" data-slide-to="2"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner">
+      <div class="item active">
+        <img src="images/slide-1.jpeg" class="img-responsive"/>
+        <div class="carousel-caption">
+            <h3>Flower</h3>
+            <p>A flower, sometimes known as a bloom or blossom, is the reproductive structure found in flowering plants.</p>
+        </div>
+      </div>
+      <div class="item">
+        <img src="images/slide-2.jpeg" class="img-responsive"/>
+        <div class="carousel-caption">
+            <h3>Engergy</h3>
+            <p>In physics, energy is the quantitative property that must be transferred to an object in order to perform work on, or to heat, the object.</p>
+        </div>
+      </div>
+      <div class="item">
+        <img src="images/slide-3.jpeg" class="img-responsive"/>
+        <div class="carousel-caption">
+            <h3>Desert</h3>
+            <p>A desert is a barren area of landscape where little precipitation occurs and, consequently, living conditions are hostile for plant and animal life.</p>
+        </div>
+      </div>
+  </div>
+
+  <!-- For left and right icon on carousel -->
+  <a href="#mycarousel" class="carousel-control left" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+  </a>
+  <a href="#mycarousel" class="carousel-control right" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+    </a>
+
+</div>
+<!--    carousel section ends here-->
+    
+<!--    team section starts here-->
+    <div class="container team">
+        <div class="row">
+            <div class="col-lg-4">
+                <img src="images/boy.jpg" alt=" boy 1" class="img-circle" width="140" height="140">
+                <h2>Team Member 1</h2>
+                <p>He is secert developer</p>
+                <p><a href="#" class="btn btn-default">More Details &raquo;</a></p>
+            </div>
+            <div class="col-lg-4">
+                <img src="images/boy.jpg" alt=" boy 1" class="img-circle" width="140" height="140">
+                <h2>Team Member 1</h2>
+                <p>He is Manager</p>
+                <p><a href="#" class="btn btn-default">More Details &raquo;</a></p>
+            </div>
+            <div class="col-lg-4">
+                <img src="images/boy.jpg" alt=" boy 1" class="img-circle" width="140" height="140">
+                <h2>Team Member 1</h2>
+                <p>He is Senior Executive</p>
+                <p><a href="#" class="btn btn-default">More Details &raquo;</a></p>
+            </div>
+        </div>
+    </div>
+<!--team section ends  here-->
+<hr class="divider">
+<!--content section starts here-->
+<div class="row content">
+        <div class="col-md-7 boy">
+         <h2 class="content-heading">Website Development Services</h2>
+        <p class="lead">We specialize in executing custom web development projects with 100% accuracy and perfectly matching to your business requirements. Our team is adept at using cutting-edge technologies to customise everything from the look and feel of front-end to expert back-end programming that results in a highly dynamic, fully functional and interactive web solution.</p>
+        </div>
+    <div class="col-md-5">
+        <img src="images/webdesign.png" alt="web" class="content-image img-responsive center-block" >
+    </div>
+</div>
+<hr class="divider">
+<div class="row content">
+    <div class="col-md-7 boy">
+        <h2 class="content-heading">Mobile Apps Development Services</h2>
+        <p class="lead">Be creative to keep your business information accessible with our customized mobile applications!Your business can reap generous revenues, reach target markets and gain awareness about the target audience if you own apt and dominant Mobile applications. Creating or developing an advanced, dynamic, user friendly mobile application is the best way to get solution to all your business related problems.</p>
+        </div>
+        <div class="col-md-5">
+                <img src="images/mobile.jpg" alt="App" class="content-image img-responsive center-block">
+            </div>
+</div>
+<hr class="divider">
+<div class="row content">
+    <div class="col-md-7 boy">
+        <h2 class="content-heading">Digital Marketing Services</h2>
+        <p class="lead">Company is there to offer you the best quality Digital Marketing services so that you can easily locate your quality audience online, determine the demand for your products and services and then take the best possible advantage of that demand.</p>
+        </div>
+    <div class="col-md-5">
+        <img src="images/digital.png" alt="digital" class="content-image img-responsive center-block" >
+    </div>
+</div>
+<!--content section starts here-->
+<hr class="divider">
+
+    <div class="container">
+    <div class="row content">
+        <div class="col-md-2">
+            <h4 >Popular Services</h4>
+            <br>
+            <ul class="list-unstyled">
+                <li><a href="#">Website Designing</a></li>
+                <li><a href="#">Graphic Designing</a></li>
+                <li><a href="#">Digital Marketing</a></li>
+                <li><a href="#">Web Development</a></li>
+                <li><a href="#">Software Development</a></li>
+                <li><a href="#">E-Comm Development</a></li>
+                <li><a href="#">Apps Development</a></li>
+            </ul>
+        </div>
+        <div class="col-md-2">
+                <h4>Our Solution</h4>
+                <br>
+            <ul class="list-unstyled">
+                <li><a href="#">Travel Solutions</a></li>
+                <li><a href="#">Real Estate Solutions</a></li>
+                <li><a href="#">Hospital Solutions</a></li>
+                <li><a href="#">Hotel Solutions</a></li>
+                <li><a href="#">School Solutions</a></li>
+                <li><a href="#">College Solutions</a></li>
+                <li><a href="#">Matrimonial Solutions</a></li>
+            </ul>
+            </div>
+        <div class="col-md-2">
+                <h4>Digital Marketing</h4>
+                <br>
+            <ul class="list-unstyled">
+                <li><a href="#">SEO Services</a></li>
+                <li><a href="#">SMO Services</a></li>
+                <li><a href="#">PPC Services</a></li>
+                <li><a href="#">ORM Services</a></li>
+                <li><a href="#">Content Writing</a></li>
+                <li><a href="#">Email Marketing</a></li>
+                <li><a href="#">SMS Marketing</a></li>
+            </ul>
+            </div>
+        <div class="col-md-2">
+                <h4>Other Services</h4>
+                <br>
+                <ul class="list-unstyled">
+                    <li><a href="#">CRM Development</a></li>
+                    <li><a href="#">CMS Development</a></li>
+                    <li><a href="#">Domain and Hosting</a></li>
+                    <li><a href="#">Website Maintenance</a></li>
+                    <li><a href="#">Software Maintenance</a></li>
+                    <li><a href="#">Hardware and Networking</a></li>
+                </ul>
+            </div>
+        <div class="col-md-2">
+                <h4>Site links</h4>
+                <br>
+                <ul class="list-unstyled">
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Terms and Conditions</a></li>
+                    <li><a href="#">Our Portfolio</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Carrer@zent</a></li>
+                </ul>
+            </div>    
+        <div class="col-md-2">
+                <h4>Get In Touch</h4>
+                <br>
+                <ul class="list-unstyled">
+                    <li><span class="glyphicon glyphicon-phone-alt"></span> (+91)8826XXXXXX</li><br>
+                    <li><span class="glyphicon glyphicon-bullhorn"></span> <a href="#">info@zent</a></li><br>
+                    <li><span class="glyphicon glyphicon-time"></span> Mon-Sat 9:00AM-6:00PM</li><br>
+                    <li><span class="glyphicon glyphicon-map-marker"></span> ZEEY,New Delhi-110046</li>
+                </ul>
+            </div>     
+    </div>
+</div>
+
+
+<!--	footer section starts here	-->
+<hr class="divider">
+    <footer>
+       <p class="pull-right"><i class="fa fa-arrow-up" aria-hidden="true"></i>
+<a href>Move to Top</a></p>
+        <div class="text-center "><p>&copy;2018 revo, Inc. <a href="#">Terms & conditions</a></p></div>
+    </footer>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
